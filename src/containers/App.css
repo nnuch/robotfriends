@@ -1,0 +1,61 @@
+
+
+@font-face {
+    font-family: 'Patchy Robots Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Patchy Robots Regular'), url('Patchy Robots.woff') format('woff');
+}
+
+.Patchy {
+    font-family: 'Patchy Robots Regular';
+    font-weight: 300;
+    color: darkgreen;  
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    
+}
+
+.mynav{
+    padding-left: 100px;
+}
+.my.bg{
+    background-color: green;
+}
+hr{width: 80%;border-top: 1px solid #d9e2db}
+.myfooter {
+    height: '10vh';
+    color:  green;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+
+.contrainer{
+  width: 100%;
+  height: 70vh;
+}
+.homeRoboSize {
+    width: 18%;
+    
+  }
+  @media (max-width: 768px) {
+    .homeRoboSize {width: 50%;}
+    }
+
+
+.center{
+    text-align: center;
+}
+
+.homeContrainer{
+    padding: 25px;
+}
+@media (max-width: 400px) {
+    .homeContrainer {padding: 0px; } 
+    }
+
+@media (max-width: 768px) {
+    .homeContrainer {padding: 5px; } 
+    }
